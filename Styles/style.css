@@ -170,7 +170,14 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.bonus:hover{
+    background: linear-gradient(rgba(68, 67, 67, 0.496),rgba(96, 95, 95, 0.456));
+    background-blend-mode:color-burn;
+ border: 5px solid orange;
+ border-radius: 15px;
+ 
+ 
+}
 
 
 /* section 01 end */
