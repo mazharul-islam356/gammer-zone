@@ -136,7 +136,50 @@ nav{
     margin: 0 auto;
     
 }
+.bonus-card{
+    position: relative;
+}
+.b-cards{
+    display: block;
+}
 
+.text{
+    width: 214px;
+    height: 250px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+
+}
+
+.text > *{
+    transform: translateY(25px);
+    transition: 0.6s;
+}
+.text:hover > * {
+    transform: translateY(0px);
+}
+.text:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+
+
+
+
+
+
+
+.watch-now{
+    height: 45px;
+    width: 45px;
+}
 .p-cards{
    display: grid;
    grid-template-columns: repeat(6,1fr);
@@ -149,7 +192,7 @@ nav{
    padding-top: 100px;
    align-items: start;
 }
-.cards{
+.cards, .b-cards{
     width: auto;
     height: 250px;
 }
@@ -170,15 +213,6 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.bonus:hover{
-    background: linear-gradient(rgba(68, 67, 67, 0.496),rgba(96, 95, 95, 0.456));
-    background-blend-mode:color-burn;
- border: 5px solid orange;
- border-radius: 15px;
- 
- 
-}
-
 
 /* section 01 end */
 /* section 02 start */
