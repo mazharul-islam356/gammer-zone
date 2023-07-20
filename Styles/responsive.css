@@ -3,7 +3,7 @@
     /* nav section */
    nav{
     flex-direction: column;
-    width: 0 auto;
+    width: 109%;
     height: 160px;
     
    }
@@ -23,6 +23,7 @@
    .follow-icn{
     padding: 7px 20px;
     margin-top: 5px;
+    margin-bottom: 10px;
    }
 
     /* header section */
