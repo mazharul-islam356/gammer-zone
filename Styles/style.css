@@ -205,6 +205,7 @@ nav{
     width: 45px;
 }
 .p-cards{
+    cursor: pointer;
    display: grid;
    grid-template-columns: repeat(6,1fr);
    align-items: center;
@@ -230,7 +231,9 @@ nav{
     padding-top: 80px;
 }
 .sct1-txt h1{
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 3px;
+
 }
 .funny{
     background: linear-gradient(rgb(232, 62, 255),rgb(62, 162, 255));
